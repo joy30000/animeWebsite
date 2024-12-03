@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+   
+    <title>Document</title>
+
+    <style>
+        .entry-title{
+           
+    /* Adjust as needed */
+    font-size: 2.5rem;
+    text-align: center;
+  color: white;  /* Set text color to white */
+  text-shadow: 
+    1px 1px 0px #e50914, 
+    -1px -1px 0px #e50914,  
+    1px -1px 0px #e50914, 
+    -1px 1px 0px #e50914, 
+    0px 1px 0px #e50914, 
+    0px -1px 0px #e50914, 
+    1px 0px 0px #e50914, 
+    -1px 0px 0px #e50914;  /* Purple border-like shadow around text */
+
+        
+        }
+
+        #desc-border {
+
+/* Adjust as needed */
+color: white;
+text-align: center;
+/* Set text color to white */
+text-shadow:
+  1px 1px 0px #535c60,
+  1px -1px 0px #535c60,
+  -1px 1px 0px #535c60,
+  0px 1px 0px #535c60,
+  0px -1px 0px #535c60,
+  1px 0px 0px #535c60,
+  -1px 0px 0px #535c60;
+/* Purple border-like shadow around text */
+}
+        iframe{
+         border: 2px solid white;
+         width: 70vw;
+        height: 50vh;
+        margin-top: 3vh;
+        }
+        #mainepisode{
+            color: white;
+        }
+        #singlepisode{
+            border: 2px solid white;
+            margin-top: 3vh;
+        }
+        #episodes-page-1{
+            margin-top: 3vh;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 1vh;
+        }
+        /* a[aria-label="Download"] {
+            background-color: red;
+            color: white;
+            border-radius: 10%;
+            padding: 2px;
+            font-size: 1rem;
+            font-weight: 800;
+            margin-top: 3vh;
+  
+        } */
+        .download {
+            background-color: red;
+            color: white;
+            border-radius: 10%;
+            padding: 2px;
+            font-size: 1rem;
+            font-weight: 800;
+            margin-top: 3vh;
+  
+        }
+       
+
+        @media (min-width: 768px) {
+            iframe{
+                height: 70vh; /* Height for smaller screens */
+            }
+        }
+        @media (min-width: 768px) {
+            iframe{
+                height: 80vh; /* Height for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body class="bg-[#141414]">
+    <div class="flex flex-col justify-center items-center p-2">
+        {% for anime in animeEpisodeData %}
+        <h1 id="desc-border" class="font-bold text-white underline decoration-red-800 ">{{ anime.status | safe }}</h1>
+        
+            {{ anime.video_src | safe }}
+       
+        <!-- <div class="w-4/5">
+            {{ anime.server | safe }}
+        </div> -->
+        <div class="download"> {{ anime.download_link | safe }}</div>
+       
+        {% endfor %}
+    </div>
+
+</body>
+</html>

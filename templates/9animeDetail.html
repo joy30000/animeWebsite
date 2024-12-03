@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    .fadeBottom{
+    height: 120px;
+    background: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#141414);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+  }
+    #h1-border {
+    /* Adjust as needed */
+  color: white;  /* Set text color to white */
+  text-shadow: 
+    1px 1px 0px #e50914, 
+    -1px -1px 0px #e50914,  
+    1px -1px 0px #e50914, 
+    -1px 1px 0px #e50914, 
+    0px 1px 0px #e50914, 
+    0px -1px 0px #e50914, 
+    1px 0px 0px #e50914, 
+    -1px 0px 0px #e50914;  /* Purple border-like shadow around text */
+}
+.genxed  {
+        
+       margin-top: 5vh;
+      
+    }
+
+    div.genxed a {
+        
+        background-color: #2f2f2f;
+        border-radius: 5px;
+        padding: 2px;
+        font-size: 14px;
+        margin-left: 2vh;
+    }
+
+    .entry-content {
+        color: #d4cabb;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    ul {
+        color: white;
+        display: grid;
+        grid-template-columns: auto;
+
+        gap: 55px;
+    }
+
+    li a {
+        border-bottom: 2px solid #2f2f2f;
+        display: flex;
+        justify-content: space-between;
+        padding: 2px 0px 2px 0px;
+    }
+
+    .spe span{
+        
+        border-radius: 3px;
+        color: #d4cabb;
+        padding: 3px;
+        display: block;
+    }
+    .status{
+        background-color: #e50914;
+        margin-right: 7px;
+        border-radius: 5px;
+    }
+    .epl-num{
+        color: #e50914;
+        font-weight: 700;
+        margin-right: 7px;
+    }
+</style>
+<body class="bg-[#141414] flex flex-col items-center relative h-[fit-content] " style="background-image: url('/static/images/animebackend.png')">
+ <div class="absolute inset-0 bg-black opacity-75 "></div>
+ <div class="w-full  bg-[#141414] z-50 sm:w-4/5 md:w-3/5">
+    {% for anime in animeDetailData %}
+        <section class="relative">
+
+            <div class=" border-2 border-red-500    bg-cover bg-center  w-full h-[40vh] flex items-center justify-center sm:h-[60vh] md:h-[70vh] lg:h-[80vh] "
+                style="background-image: url('{{ anime.cover_img }}')" ;>
+                <img src="{{ anime.img  }}" alt="" class="border-4 border-[#e50914] h-[30vh] md:h-[50vh]">
+            </div>
+            <div class="fadeBottom"></div>
+
+        </section>
+
+
+        <section class="text-white p-2">
+
+            <h1 id="h1-border" class="font-bold text-2xl z-50 underline  underline-offset-8 sm:text-3xl md:text-4xl lg:text-5xl">{{ anime.title  }}</h1>
+            {{ anime.genres | safe }}
+                <a href=""><h2 class="font-bold text-white bg-[#E50914] p-1 rounded-md text-2xl text-center mt-8">Play Now</h2></a>
+                <h2 class="mt-5 text-[14px]">{{ anime.status | safe }} </h2>
+                <h2 class="font-bold text-white text-2xl  underline decoration-red-800 mt-[5vh]">Synopsis {{ anime.title }}
+                </h2>
+                <div id="description" style=" width: 100%; height: 10vh; overflow: hidden;">
+                    {{ anime.description | safe }}
+                </div>
+                <button onclick="expand()" class="font-bold text-red-700 w-full text-center">View More</button>
+                
+        </section>
+        <hr class="border-[#2f2f2f] mt-[5vh]">
+
+        <section class="p-2 w-full flex flex-col justify-center items-center">
+
+            <h1 class="font-bold text-white  text-3xl  underline decoration-red-800">Episodes</h1>
+            
+            <div class="mt-5 mb-9 w-full">
+                <!-- <div class="w-6/7 p-2 text-white font-bold text-[20px]  flex  justify-between ">
+                    <h3>Ep</h3>
+                    <h3>Title</h3>
+                    <h3>Audio</h3>
+                    <h3>Date</h3>
+                </div> -->
+                <div class="w-full mt-8  h-[70vh] overflow-auto">
+                    {{ anime.episodes | safe }}
+                </div>
+                
+            </div>
+
+        </section>
+
+        {% endfor %}
+      
+
+        
+        <!-- <section class="grid grid-cols-2 p-3 justify-between md:grid-cols-3 lg:grid-cols-4"> -->
+            <section class="popular relative w-full overflow-x-hidden mt-4">
+                <h1 class="font-semibold text-white text-3xl ml-6 underline decoration-red-800">Similar Anime</h1>
+                <!-- Cards Container (Scrollable) -->
+                <div id="slider_popular" class="flex gap-4 overflow-x-auto p-4 " style="scroll-behavior: smooth">
+                  <!-- Card  -->
+                  {% for sanime in animeDetailData[0].Similar_Anime_List %}
+                  <a class=" bg-[#2f2f2f] h-[fit-content] w-[fit-content] rounded-lg block transition-transform duration-300 ease-in-out transform hover:scale-[1.2] " href=""> 
+                  <div class="flex-none w-[20vh] h-[28vh] bg-blue-500 text-white rounded-lg p-4 shadow-lg bg-cover" style="background-image: url('{{ sanime.img }}')";>
+                  </div> 
+                  <h3 class=" w-[20vh] p-2  h-[7vh] overflow-hidden font-semibold text-white "> {{sanime.title }}</h3>
+                  <div class="p-2 flex justify-between mt-1 text-white ">
+                    <p class="w-8 text-center p-1 font-bold rounded-md text-[12px]  bg-[#e50914]"> {{sanime.language }}</p>
+                    <p class="w-8 text-center p-1 font-bold rounded-md text-[12px]  bg-[#e50914]"> {{sanime.series }}</p>
+                  </div> 
+            
+                  </a>
+                  
+                  {% endfor %}
+                
+                </div>
+                <!-- Navigation Buttons -->
+              <button onclick="moveSlider(-1,'slider_popular')" class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none">
+                &#10094;
+              </button>
+              <button onclick="moveSlider(1,'slider_popular')" class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none">
+                &#10095;
+              </button>
+            </section> 
+
+           
+</div>
+
+<script>
+    function expand() {
+        let div_height = document.getElementById("description")
+        if (div_height.style.height == "10vh") {
+            div_height.style.height = "fit-content"
+        }
+        else if (div_height.style.height == "fit-content") {
+            div_height.style.height = "10vh"
+        }
+    }
+
+
+    function moveSlider(direction, div_id) {
+      console.log(div_id);
+      
+      const slider = document.getElementById(div_id);
+      // Scroll the slider left or right
+      const cardWidth = slider.querySelector('.flex-none').offsetWidth; // Get the width of one card
+      slider.scrollLeft += direction * cardWidth; // Scroll by the width of one card
+    }
+
+</script>
+</body>
+</html>

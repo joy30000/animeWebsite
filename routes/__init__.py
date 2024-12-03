@@ -1,0 +1,1 @@
+from .home import homeRoutes  # Import homeRoutes from the home.py file

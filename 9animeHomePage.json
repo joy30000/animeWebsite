@@ -1,0 +1,994 @@
+[
+    {
+        "banner": [
+            {
+                "title": "Arifureta: From Commonplace to World’s Strongest Season 3",
+                "background_img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/Arifureta-From-Commonplace-to-Worlds-Strongest-Season-3-cover-scaled.jpg",
+                "link": "https://9anime.org.lv/anime/arifureta-from-commonplace-to-worlds-strongest-season-3/",
+                "description": "Third season of Arifureta Shokugyou de Sekai Saikyou. Arifureta Shokugyou de Sekai Saikyou Season 3"
+            },
+            {
+                "title": "One Piece",
+                "background_img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/08/one-piece-cover-1-scaled.jpg",
+                "link": "https://9anime.org.lv/anime/one-piece/",
+                "description": "Barely surviving in a barrel after passing through a terrible whirlpool at sea, carefree Monkey D. Luffy ends up aboard a ship under attack by fearsome pirates. Despite being a…"
+            },
+            {
+                "title": "Ranma ½",
+                "background_img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/af1c058948079aabe09de052cc7b4261.jpg",
+                "link": "https://9anime.org.lv/anime/ranma-%c2%bd/",
+                "description": "Soun Tendou runs the Tendou Martial Arts School accompanied by his three daughters: Akane, Nabiki, and Kasumi. One day, the sisters' lives are turned upside down when their father announces…"
+            },
+            {
+                "title": "Dandadan",
+                "background_img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/dandadan-cover.jpg",
+                "link": "https://9anime.org.lv/anime/dandadan/",
+                "description": "After being aggressively rejected, Momo Ayase finds herself sulking when she stumbles across a boy being bullied. Saved by her rash kindness, the alien-obsessed boy attempts to speak to her…"
+            },
+            {
+                "title": "Let This Grieving Soul Retire",
+                "background_img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/09/lVStOX9l0yaUCPXHoTBvcRxYlm2-scaled.jpg",
+                "link": "https://9anime.org.lv/anime/let-this-grieving-soul-retire/",
+                "description": "The golden age has dawned for treasure hunters, who raid treasure vaults all over the world in search of glory, despite the dangers. Immeasurable wealth, fame, and power await those…"
+            },
+            {
+                "title": "Blue Lock 2nd Season",
+                "background_img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/blue-lock-cover.jpg",
+                "link": "https://9anime.org.lv/anime/blue-lock-2nd-season/",
+                "description": "Second season of Blue Lock. Blue Lock vs. U-20 Japan"
+            },
+            {
+                "title": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
+                "background_img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/08/Demon-Slayer-Kimetsu-no-Yaiba-Hashira-Training-Arc-series.jpg",
+                "link": "https://9anime.org.lv/anime/demon-slayer-kimetsu-no-yaiba-hashira-training-arc/",
+                "description": "After a series of mighty clashes with Upper Rank Demons, the Ubuyashiki clan prepares for one last battle with the hellish forces of Muzan Kibutsuji. In order to finally defeat…"
+            },
+            {
+                "title": "Bleach: Thousand-Year Blood War – The Conflict",
+                "background_img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/Bleach-Thousand-Year-Blood-War-The-Conflict-cover.jpg",
+                "link": "https://9anime.org.lv/anime/bleach-thousand-year-blood-war-the-conflict/",
+                "description": "Third part of Bleach: Sennen Kessen-hen. Bleach: Sennen Kessen-hen – Soukoku-tan"
+            },
+            {
+                "title": "The Most Notorious “Talker” Runs the World’s Greatest Clan",
+                "background_img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/09/The-Most-Notorious-Talker-Runs-the-Worlds-Greatest-Clan-cover.jpg",
+                "link": "https://9anime.org.lv/anime/the-most-notorious-talker-runs-the-worlds-greatest-clan/",
+                "description": "Noel longs to be a Seeker like his heroic grandfather, slaying the beasts that emerge from Abysses and exploring far-off lands. Unfortunately, it turns out he's nothing but a measly…"
+            }
+        ],
+        "popular_anime": [
+            {
+                "title": "Naruto: Shippuuden (Dub) Episode 500",
+                "episode_title": "Naruto: Shippuuden (Dub) Episode 500",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725272137-5779-111305.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/naruto-shippuuden-dub-episode-500/",
+                "episode_number": "Ep 500",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "One Piece Episode 1122",
+                "episode_title": "One Piece Episode 1122",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/08/1723656267-2775-138851.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/one-piece-episode-1122/",
+                "episode_number": "Ep 1122",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "One Piece (Dub) Episode 1096",
+                "episode_title": "One Piece (Dub) Episode 1096",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725358359-8610-one-piece-dub.png?resize=247,350",
+                "link": "https://9anime.org.lv/one-piece-dub-episode-1096/",
+                "episode_number": "Ep 1096",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "I’ll Become a Villainess Who Goes Down in History Episode 9",
+                "episode_title": "I’ll Become a Villainess Who Goes Down in History Episode 9",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/rekishi-ni-nokoru-akujo-ni-naru-zo-1727376849.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/ill-become-a-villainess-who-goes-down-in-history-episode-9/",
+                "episode_number": "Ep 9",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Dandadan Episode 8",
+                "episode_title": "Dandadan Episode 8",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/a8b56a7589ff9edb6c86977c31e27a06.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/dandadan-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Tasuketsu -Fate of the Majority- Episode 20",
+                "episode_title": "Tasuketsu -Fate of the Majority- Episode 20",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/08/1724251224-8141-143629.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/tasuketsu-fate-of-the-majority-episode-20/",
+                "episode_number": "Ep 20",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "I’ll Become a Villainess Who Goes Down in History Episode 9",
+                "episode_title": "I’ll Become a Villainess Who Goes Down in History Episode 9",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/rekishi-ni-nokoru-akujo-ni-naru-zo-1727376849.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/ill-become-a-villainess-who-goes-down-in-history-episode-9/",
+                "episode_number": "Ep 9",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Seirei Gensouki: Spirit Chronicles Season 2 (Dub) Episode 8",
+                "episode_title": "Seirei Gensouki: Spirit Chronicles Season 2 (Dub) Episode 8",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728334210-1185-144583.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/seirei-gensouki-spirit-chronicles-season-2-dub-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Tying the Knot with an Amagami Sister Episode 9",
+                "episode_title": "Tying the Knot with an Amagami Sister Episode 9",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1727800427-3585-143586.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/tying-the-knot-with-an-amagami-sister-episode-9/",
+                "episode_number": "Ep 9",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "A Terrified Teacher at Ghoul School! Episode 8",
+                "episode_title": "A Terrified Teacher at Ghoul School! Episode 8",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728397379-4245-145662.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/a-terrified-teacher-at-ghoul-school-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Natsume’s Book of Friends Season 7 Episode 8",
+                "episode_title": "Natsume’s Book of Friends Season 7 Episode 8",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728318589-1515-145168.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/natsumes-book-of-friends-season-7-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Blue Box Episode 9",
+                "episode_title": "Blue Box Episode 9",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725801612-5243-145349.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/blue-box-episode-9/",
+                "episode_number": "Ep 9",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Seirei Gensouki: Spirit Chronicles Season 2 Episode 8",
+                "episode_title": "Seirei Gensouki: Spirit Chronicles Season 2 Episode 8",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728023125-8811-144583.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/seirei-gensouki-spirit-chronicles-season-2-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Nina the Starry Bride Episode 8",
+                "episode_title": "Nina the Starry Bride Episode 8",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728312952-1841-144553.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/nina-the-starry-bride-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Love Live! Superstar!! Season 3 Episode 8",
+                "episode_title": "Love Live! Superstar!! Season 3 Episode 8",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728269719-9874-144640.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/love-live-superstar-season-3-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Arifureta: From Commonplace to World’s Strongest Season 3 Episode 7",
+                "episode_title": "Arifureta: From Commonplace to World’s Strongest Season 3 Episode 7",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728829652-1183-145597.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/arifureta-from-commonplace-to-worlds-strongest-season-3-episode-7/",
+                "episode_number": "Ep 7",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "The Most Notorious “Talker” Runs the World’s Greatest Clan Episode 9",
+                "episode_title": "The Most Notorious “Talker” Runs the World’s Greatest Clan Episode 9",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1727711880-1929-145446.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/the-most-notorious-talker-runs-the-worlds-greatest-clan-episode-9/",
+                "episode_number": "Ep 9",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Future’s Folktales 2 Episode 4",
+                "episode_title": "Future’s Folktales 2 Episode 4",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730734104-2171-144671.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/futures-folktales-2-episode-4/",
+                "episode_number": "Ep 4",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Yakuza Fiancé: Raise wa Tanin ga Ii Episode 8",
+                "episode_title": "Yakuza Fiancé: Raise wa Tanin ga Ii Episode 8",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728313702-8094-raise-wa-tanin-ga-ii.png?resize=247,350",
+                "link": "https://9anime.org.lv/yakuza-fiance-raise-wa-tanin-ga-ii-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Ron Kamonohashi’s Forbidden Deductions Season 2 Episode 8",
+                "episode_title": "Ron Kamonohashi’s Forbidden Deductions Season 2 Episode 8",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728313452-7937-144334.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/ron-kamonohashis-forbidden-deductions-season-2-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Nisekoi: False Love Season 2 Episode 12",
+                "episode_title": "Nisekoi: False Love Season 2 Episode 12",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1732466009-2260-72626.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/nisekoi-false-love-season-2-episode-12/",
+                "episode_number": "Ep 12",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "MF Ghost Season 2 Episode 8",
+                "episode_title": "MF Ghost Season 2 Episode 8",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728231640-4942-145338.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/mf-ghost-season-2-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Puniru is a Kawaii Slime Episode 8",
+                "episode_title": "Puniru is a Kawaii Slime Episode 8",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728835700-3716-145175.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/puniru-is-a-kawaii-slime-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Let This Grieving Soul Retire Episode 9",
+                "episode_title": "Let This Grieving Soul Retire Episode 9",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1727625345-3277-145660.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/let-this-grieving-soul-retire-episode-9/",
+                "episode_number": "Ep 9",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Tower of God Season 2: Workshop Battle Episode 8",
+                "episode_title": "Tower of God Season 2: Workshop Battle Episode 8",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728224340-4879-145819.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/tower-of-god-season-2-workshop-battle-episode-8/",
+                "episode_number": "Ep 8",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Laid-Back Camp Season 3 Specials",
+                "episode_title": "Laid-Back Camp Season 3 Specials",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729742308-1239-143098.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/laid-back-camp-season-3-specials-episode-3/",
+                "episode_number": "Completed",
+                "language": "Sub",
+                "series": "Special"
+            },
+            {
+                "title": "Laid-Back Camp Season 3",
+                "episode_title": "Laid-Back Camp Season 3",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/08/1724858887-5108-142710.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/laid-back-camp-season-3-episode-2/",
+                "episode_number": "Completed",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Tokyo Ghoul (Dub)",
+                "episode_title": "Tokyo Ghoul (Dub)",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729042341-9254-134443.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/tokyo-ghoul-dub-episode-12/",
+                "episode_number": "Completed",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Tokyo Ghoul",
+                "episode_title": "Tokyo Ghoul",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1727716999-4450-134443.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/tokyo-ghoul-episode-12/",
+                "episode_number": "Completed",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Uzumaki: Spiral into Horror (Dub)",
+                "episode_title": "Uzumaki: Spiral into Horror (Dub)",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1727591796-4608-105265.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/uzumaki-spiral-into-horror-dub-episode-4/",
+                "episode_number": "Ongoing",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Lockdown Zone: Lv. X",
+                "episode_title": "Lockdown Zone: Lv. X",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1726469885-3038-144685.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/lockdown-zone-lv-x-episode-6/",
+                "episode_number": "Ongoing",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Perfect Blue",
+                "episode_title": "Perfect Blue",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725342131-2055-134212.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/perfect-blue-episode-1/",
+                "episode_number": "Completed",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "The Concierge",
+                "episode_title": "The Concierge",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1731998122-2224-137966.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/the-concierge-episode-1/",
+                "episode_number": "Completed",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Jib-i Eopseo",
+                "episode_title": "Jib-i Eopseo",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1731511780-9103-145559.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/jib-i-eopseo-episode-8/",
+                "episode_number": "Ongoing",
+                "language": "Sub",
+                "series": "ONA"
+            },
+            {
+                "title": "Blue Lock: Episode Nagi – Additional Time!",
+                "episode_title": "Blue Lock: Episode Nagi – Additional Time!",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730625630-6971-146003.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/blue-lock-episode-nagi-additional-time-episode-1/",
+                "episode_number": "Completed",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Laid-Back Camp Season 3 Specials",
+                "episode_title": "Laid-Back Camp Season 3 Specials",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729742308-1239-143098.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/laid-back-camp-season-3-specials-episode-3/",
+                "episode_number": "Completed",
+                "language": "Sub",
+                "series": "Special"
+            },
+            {
+                "title": "Tono to Inu",
+                "episode_title": "Tono to Inu",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729707920-9203-144716.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/tono-to-inu/",
+                "episode_number": "Ongoing",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Star Blazers: Space Battleship Yamato 3199",
+                "episode_title": "Star Blazers: Space Battleship Yamato 3199",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1730004350-1865-143246.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/star-blazers-space-battleship-yamato-3199-episode-2/",
+                "episode_number": "Ongoing",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Gurren Lagann The Movie: The Lights in the Sky are Stars",
+                "episode_title": "Gurren Lagann The Movie: The Lights in the Sky are Stars",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725285372-9919-19698.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/gurren-lagann-the-movie-the-lights-in-the-sky-are-stars-episode-1/",
+                "episode_number": "Completed",
+                "language": "Dub",
+                "series": "Movie"
+            },
+            {
+                "title": "Blue Exorcist: Beyond the Snow Saga (Dub)",
+                "episode_title": "Blue Exorcist: Beyond the Snow Saga (Dub)",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1731206374-3783-144043.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/blue-exorcist-beyond-the-snow-saga-dub-episode-4/",
+                "episode_number": "Ongoing",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Bleach: Thousand-Year Blood War – The Conflict (Dub)",
+                "episode_title": "Bleach: Thousand-Year Blood War – The Conflict (Dub)",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730953241-1553-144074.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/bleach-thousand-year-blood-war-the-conflict-dub-episode-4/",
+                "episode_number": "Ongoing",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Murder Mystery of the Dead",
+                "episode_title": "Murder Mystery of the Dead",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730866239-9359-145611.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/murder-mystery-of-the-dead/",
+                "episode_number": "Upcoming",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Fuuto Tantei Movie: Kamen Rider Skull no Shouzou",
+                "episode_title": "Fuuto Tantei Movie: Kamen Rider Skull no Shouzou",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730866189-9204-145324.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/fuuto-tantei-movie-kamen-rider-skull-no-shouzou/",
+                "episode_number": "Upcoming",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Noragami (Dub)",
+                "episode_title": "Noragami (Dub)",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730603651-2274-128266.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/noragami-dub-episode-12/",
+                "episode_number": "Completed",
+                "language": "Dub",
+                "series": "TV"
+            }
+        ],
+        "action_movies": [
+            {
+                "title": "Overlord: The Sacred Kingdom",
+                "episode_title": "Overlord: The Sacred Kingdom",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1731500440-9072-144101.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/overlord-the-sacred-kingdom/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Attack on Titan: The Last Attack",
+                "episode_title": "Attack on Titan: The Last Attack",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730866363-4677-145452.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/attack-on-titan-the-last-attack/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Fuuto Tantei Movie: Kamen Rider Skull no Shouzou",
+                "episode_title": "Fuuto Tantei Movie: Kamen Rider Skull no Shouzou",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730866189-9204-145324.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/fuuto-tantei-movie-kamen-rider-skull-no-shouzou/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Aoki Hagane no Arpeggio: Ars Nova Movie 2 – Cadenza",
+                "episode_title": "Aoki Hagane no Arpeggio: Ars Nova Movie 2 – Cadenza",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730717905-3522-74665.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/aoki-hagane-no-arpeggio-ars-nova-movie-2-cadenza/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Star Blazers: Space Battleship Yamato 3199",
+                "episode_title": "Star Blazers: Space Battleship Yamato 3199",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1730004350-1865-143246.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/star-blazers-space-battleship-yamato-3199/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Dragon Nest: Throne of Elves",
+                "episode_title": "Dragon Nest: Throne of Elves",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729651693-7959-112381.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/dragon-nest-throne-of-elves/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Dragon Nest: Warriors’ Dawn",
+                "episode_title": "Dragon Nest: Warriors’ Dawn",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729651578-5001-112373.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/dragon-nest-warriors-dawn/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Naruto Shippuden the Movie 7: The Last",
+                "episode_title": "Naruto Shippuden the Movie 7: The Last",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725275734-4859-134498.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/naruto-shippuden-the-movie-7-the-last/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Naruto Shippuden the Movie 3: The Will of Fire",
+                "episode_title": "Naruto Shippuden the Movie 3: The Will of Fire",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728889791-7532-116732.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/naruto-shippuden-the-movie-3-the-will-of-fire/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Naruto Shippuden the Movie 1",
+                "episode_title": "Naruto Shippuden the Movie 1",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728811686-8581-134493.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/naruto-shippuden-the-movie-1/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Dragon Ball Super: Broly",
+                "episode_title": "Dragon Ball Super: Broly",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1727706713-8840-93498.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/dragon-ball-super-broly/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Ghost in the Shell",
+                "episode_title": "Ghost in the Shell",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1727689079-1370-82594.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/ghost-in-the-shell/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Dragon Quest: Your Story",
+                "episode_title": "Dragon Quest: Your Story",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1727601522-2126-101614.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/dragon-quest-your-story/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Harmagedon",
+                "episode_title": "Harmagedon",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1727600407-8690-97116.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/harmagedon/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Ni no Kuni",
+                "episode_title": "Ni no Kuni",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1726469743-9070-101637.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/ni-no-kuni/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "My Hero Academia: You’re Next",
+                "episode_title": "My Hero Academia: You’re Next",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1726042543-5589-143549.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/my-hero-academia-youre-next/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Spy x Family Code: White",
+                "episode_title": "Spy x Family Code: White",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725781789-4919-139388.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/spy-x-family-code-white/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle Arc",
+                "episode_title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle Arc",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725694452-4636-143891.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/demon-slayer-kimetsu-no-yaiba-infinity-castle-arc/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Jujutsu Kaisen 0",
+                "episode_title": "Jujutsu Kaisen 0",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725416458-8637-119044.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/jujutsu-kaisen-0/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Kizumonogatari Part 2: Hot-Blooded",
+                "episode_title": "Kizumonogatari Part 2: Hot-Blooded",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725285524-8664-112812.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/kizumonogatari-part-2-hot-blooded/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Gurren Lagann The Movie: The Lights in the Sky are Stars",
+                "episode_title": "Gurren Lagann The Movie: The Lights in the Sky are Stars",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725285372-9919-19698.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/gurren-lagann-the-movie-the-lights-in-the-sky-are-stars/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Fate/stay night: Heaven’s Feel – III. Spring Song",
+                "episode_title": "Fate/stay night: Heaven’s Feel – III. Spring Song",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725284027-6873-112957.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/fate-stay-night-heavens-feel-iii-spring-song/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Princess Mononoke",
+                "episode_title": "Princess Mononoke",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725283799-9178-75919.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/princess-mononoke/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Kizumonogatari Part 3: Cold-Blooded",
+                "episode_title": "Kizumonogatari Part 3: Cold-Blooded",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725282221-8114-112813.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/kizumonogatari-part-3-cold-blooded/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Gintama: The Movie: The Final Chapter: Be Forever Yorozuya",
+                "episode_title": "Gintama: The Movie: The Final Chapter: Be Forever Yorozuya",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725281469-5455-51723.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/gintama-the-movie-the-final-chapter-be-forever-yorozuya/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Gintama: The Very Final",
+                "episode_title": "Gintama: The Very Final",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725280621-5407-116760.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/gintama-the-very-final/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "One Piece Film: Red",
+                "episode_title": "One Piece Film: Red",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725271433-7458-125323.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/one-piece-film-red/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "One Piece: Stampede",
+                "episode_title": "One Piece: Stampede",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725270302-5049-100550.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/one-piece-stampede/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "One Piece Film: Z",
+                "episode_title": "One Piece Film: Z",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725270199-3988-44297.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/one-piece-film-z/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train",
+                "episode_title": "Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725212215-2377-106947.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            }
+        ],
+        "action_adventure_anime": [
+            
+            {
+                "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? V (Dub)",
+                "episode_title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? V (Dub)",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1731550733-1321-144738.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-v-dub/",
+                "episode_number": "Ep 2",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Overlord: The Sacred Kingdom",
+                "episode_title": "Overlord: The Sacred Kingdom",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1731500440-9072-144101.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/overlord-the-sacred-kingdom/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Bleach: Thousand-Year Blood War – The Conflict (Dub)",
+                "episode_title": "Bleach: Thousand-Year Blood War – The Conflict (Dub)",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730953241-1553-144074.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/bleach-thousand-year-blood-war-the-conflict-dub/",
+                "episode_number": "Ep 4",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Trigun (Dub)",
+                "episode_title": "Trigun (Dub)",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730725923-2603-120002.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/trigun-dub/",
+                "episode_number": "Ep 26",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Trigun",
+                "episode_title": "Trigun",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730724780-5736-120002.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/trigun/",
+                "episode_number": "Ep 26",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "One Piece Log: Fish-Man Island Saga",
+                "episode_title": "One Piece Log: Fish-Man Island Saga",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1730602524-9180-146063.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/one-piece-log-fish-man-island-saga/",
+                "episode_number": "Ep 4",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "World of Immortals",
+                "episode_title": "World of Immortals",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1730179425-6949-146039.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/world-of-immortals/",
+                "episode_number": "Ep 2",
+                "language": "Sub",
+                "series": "ONA"
+            },
+            {
+                "title": "Arifureta: From Commonplace to World’s Strongest Season 3 (Dub)",
+                "episode_title": "Arifureta: From Commonplace to World’s Strongest Season 3 (Dub)",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1730168768-6946-145597.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/arifureta-from-commonplace-to-worlds-strongest-season-3-dub/",
+                "episode_number": "Ep 4",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Shangri-La Frontier Season 2 (Dub)",
+                "episode_title": "Shangri-La Frontier Season 2 (Dub)",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1730057600-3587-144794.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/shangri-la-frontier-season-2-dub/",
+                "episode_number": "Ep 4",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Dragon Nest: Throne of Elves",
+                "episode_title": "Dragon Nest: Throne of Elves",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729651693-7959-112381.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/dragon-nest-throne-of-elves/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Dragon Nest: Warriors’ Dawn",
+                "episode_title": "Dragon Nest: Warriors’ Dawn",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729651578-5001-112373.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/dragon-nest-warriors-dawn/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Tower of God Season 2: Workshop Battle (Dub)",
+                "episode_title": "Tower of God Season 2: Workshop Battle (Dub)",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729475120-4701-145819.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/tower-of-god-season-2-workshop-battle-dub/",
+                "episode_number": "Ep 5",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "One Piece Fan Letter",
+                "episode_title": "One Piece Fan Letter",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729391721-5925-145881.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/one-piece-fan-letter/",
+                "episode_number": "Ep 1",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Shangri-La Frontier",
+                "episode_title": "Shangri-La Frontier",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729049904-3555-139931.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/shangri-la-frontier/",
+                "episode_number": "Ep 25",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Vinland Saga Season 2 (Dub)",
+                "episode_title": "Vinland Saga Season 2 (Dub)",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729046277-9584-124312.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/vinland-saga-season-2-dub/",
+                "episode_number": "Ep 24",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Hunter x Hunter (Dub)",
+                "episode_title": "Hunter x Hunter (Dub)",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729043673-8084-99013.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/hunter-x-hunter-dub/",
+                "episode_number": "Ep 148",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Gurren Lagann",
+                "episode_title": "Gurren Lagann",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729000175-1439-5123.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/gurren-lagann/",
+                "episode_number": "Ep 27",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Wu Liuqi: Jiyi Suipian",
+                "episode_title": "Wu Liuqi: Jiyi Suipian",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728982380-9499-145681.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/wu-liuqi-jiyi-suipian/",
+                "episode_number": "Ep 9",
+                "language": "Sub",
+                "series": "ONA"
+            },
+            {
+                "title": "Boruto: Naruto the Movie – The Day Naruto Became Hokage",
+                "episode_title": "Boruto: Naruto the Movie – The Day Naruto Became Hokage",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728889968-6943-77678.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/boruto-naruto-the-movie-the-day-naruto-became-hokage/",
+                "episode_number": "Ep Sub",
+                "language": "Sub",
+                "series": "Special"
+            },
+            {
+                "title": "Naruto Shippuden the Movie 3: The Will of Fire",
+                "episode_title": "Naruto Shippuden the Movie 3: The Will of Fire",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728889791-7532-116732.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/naruto-shippuden-the-movie-3-the-will-of-fire/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Arifureta: From Commonplace to World’s Strongest Season 3",
+                "episode_title": "Arifureta: From Commonplace to World’s Strongest Season 3",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728829652-1183-145597.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/arifureta-from-commonplace-to-worlds-strongest-season-3/",
+                "episode_number": "Ep 6",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Naruto Shippuden the Movie 1",
+                "episode_title": "Naruto Shippuden the Movie 1",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728811686-8581-134493.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/naruto-shippuden-the-movie-1/",
+                "episode_number": "Movie",
+                "language": "Sub",
+                "series": "Movie"
+            },
+            {
+                "title": "Tiger Crane",
+                "episode_title": "Tiger Crane",
+                "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728810222-1970-145797.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/tiger-crane/",
+                "episode_number": "Ep 5",
+                "language": "Sub",
+                "series": "ONA"
+            },
+            {
+                "title": "Shangri-La Frontier Season 2",
+                "episode_title": "Shangri-La Frontier Season 2",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728810020-1556-144794.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/shangri-la-frontier-season-2/",
+                "episode_number": "Ep 7",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Demon Lord, Retry! R (Dub)",
+                "episode_title": "Demon Lord, Retry! R (Dub)",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728789284-2845-145393.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/demon-lord-retry-r-dub/",
+                "episode_number": "Ep 7",
+                "language": "Dub",
+                "series": "TV"
+            },
+            {
+                "title": "Dragon Ball Daima",
+                "episode_title": "Dragon Ball Daima",
+                "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728667385-6508-145231.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/dragon-ball-daima/",
+                "episode_number": "Ep 7",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "The Seven Deadly Sins: Four Knights of the Apocalypse Season 2",
+                "episode_title": "The Seven Deadly Sins: Four Knights of the Apocalypse Season 2",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728655870-5784-145389.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/the-seven-deadly-sins-four-knights-of-the-apocalypse-season-2/",
+                "episode_number": "Ep 5",
+                "language": "Sub",
+                "series": "TV"
+            },
+            {
+                "title": "Saint Seiya: The Lost Canvas (Dub)",
+                "episode_title": "Saint Seiya: The Lost Canvas (Dub)",
+                "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728486426-9429-75546.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/saint-seiya-the-lost-canvas-dub/",
+                "episode_number": "Ep 26",
+                "language": "Dub",
+                "series": "OVA"
+            },
+            {
+                "title": "Dragon Ball: Yo! The Return of Son-Goku and Friends!! (Dub)",
+                "episode_title": "Dragon Ball: Yo! The Return of Son-Goku and Friends!! (Dub)",
+                "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728450051-2793-10149.jpg?resize=247,350",
+                "link": "https://9anime.org.lv/anime/dragon-ball-yo-the-return-of-son-goku-and-friends-dub/",
+                "episode_number": "Ep 1",
+                "language": "Dub",
+                "series": "Special"
+            }
+        ]
+    }
+]
