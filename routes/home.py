@@ -14,8 +14,14 @@ homeRoutes = Blueprint('home', __name__)
 @homeRoutes.route('/')
 def home():
     # Load the JSON data from the homepage.json file
-    with open(os.path.join(os.getcwd(), '9animeHomepage.json'), 'r', encoding='utf-8') as f:
+    # with open(os.path.join(os.getcwd(), '9animeHomepage.json'), 'r', encoding='utf-8') as f:
+    #     homepage_data = json.load(f)
+    json_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', '9animeHomepage.json')
+    
+    # Load the JSON data
+    with open(json_file_path, 'r', encoding='utf-8') as f:
         homepage_data = json.load(f)
+        
     # Render the Jinja2 template (homepage.html) and pass the JSON data
     return render_template('9animeHomepage.html', homepageData=homepage_data)
 
