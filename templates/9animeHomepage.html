@@ -96,23 +96,27 @@
 <nav class="relative bg-[#141414] px-2">
   <div>
     <ul class="flex items-center justify-between">
-      <li><img src="/static/images/hamburger-.png" alt="" class="h-14 w-14"></li>
+      <li class="hidden md:block"><img  src="/static/images/hamburger-.png" alt="" class="h-14 w-14 "></li>
       <li class="flex items-center"><img src="/static/images/anya.png" alt="" class="h-14 w-14"><h1 class="text-3xl text-red-500 font-bold">Waku! Waku!</h1><img src="/static/images/bond.png" alt="" class="h-14 w-14"></li>
       
      
-      <li class="flex items-center hidden sm:flex">
-        <form action="/home/search" method="post" class="flex items-center">
-          <input type="text" id="name" class="rounded-md" name="name">
-          <!-- <input type="submit" value="Submit" class="text-white" > -->
-           <button type="submit" class="text-white"><img src="/static/images/detective_anya_copy-removebg-preview.png" alt="" class="h-14 w-14"></button>
-          <!-- <img src="/static/images/anyaxbond.png" alt="" class="h-14 w-14" > -->
-        </form>
+      <li>
+        <button onclick="expand()" class="text-white"><img src="/static/images/detective_anya_copy-removebg-preview.png" alt="" class="h-14 w-14"></button>
       </li>
     </ul>
   </div>
-  
+  <div id="search_box" style="display: none;">
+    <form action="/home/search" method="post" class="w-full flex items-center justify-center">
+      <input type="text" id="name" class="rounded-md" name="name">
+      <!-- <input type="submit" value="Submit" class="text-white" > -->
+       <button type="submit" class="text-white"><img src="/static/images/detective_anya_copy-removebg-preview.png" alt="" class="h-14 w-14"></button>
+      <!-- <img src="/static/images/anyaxbond.png" alt="" class="h-14 w-14" > -->
+    </form>
+  </div>
   <div class="navfadeBottom"></div> 
 </nav>
+
+
 
   <!-- ----------------BANNER SECTION------------------------------   -->
   <section>
@@ -135,7 +139,7 @@
               <a href="/home/anime_detail?url={{ item.link | urlencode }}">
                 <div
                   class="border-2 border-red-500 text-black  bg-white w-[20vh] rounded-md font-semibold mt-3 flex justify-center items-center p-1 sm:w-[25vh]  sm:h-[7vh] lg:text-2xl ">
-                  <img class="h-4 w-4" src="/static/images/play-removebg-preview.png" alt=""><a href=""> &nbsp;Play
+                  <img class="h-4 w-4" src="/static/images/play-removebg-preview.png" alt=""><a href="/home/anime_detail?url={{ item.link | urlencode }}"> &nbsp;Play
                 </div>
               </a>
             </div>
@@ -146,14 +150,14 @@
       </div>
 
       <!-- Previous Button -->
-      <button class="carousel-control-prev h-[fit-content] bg-red-500 absolute mt-[43vh] ml-32 sm:mt-[50vh] lg:mt-[70vh]" type="button" data-bs-target="#carouselExampleInterval"
+      <button class="carousel-control-prev h-[fit-content] bg-red-500 absolute hidden mt-[43vh] ml-32 sm:mt-[50vh] lg:mt-[70vh] lg:block hidden md:block" type="button" data-bs-target="#carouselExampleInterval"
         data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
 
       <!-- Next Button -->
-      <button class="carousel-control-next h-[fit-content] bg-red-500 absolute mt-[43vh] mr-32 sm:mt-[50vh] lg:mt-[70vh] " type="button" data-bs-target="#carouselExampleInterval"
+      <button class="carousel-control-next h-[fit-content] bg-red-500 absolute hidden mt-[43vh] mr-32 sm:mt-[50vh] lg:mt-[70vh] lg:block hidden md:block " type="button" data-bs-target="#carouselExampleInterval"
         data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
@@ -197,11 +201,11 @@
     </div>
     <!-- Navigation Buttons -->
     <button onclick="moveSlider(-1,'slider_popular')"
-      class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none">
+      class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none hidden md:block">
       &#10094;
     </button>
     <button onclick="moveSlider(1,'slider_popular')"
-      class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none">
+      class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none hidden md:block">
       &#10095;
     </button>
 
@@ -238,11 +242,11 @@
     </div>
     <!-- Navigation Buttons -->
     <button onclick="moveSlider(-1,'slider_action')"
-      class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none">
+      class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none hidden md:block">
       &#10094;
     </button>
     <button onclick="moveSlider(1,'slider_action')"
-      class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none">
+      class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none hidden md:block">
       &#10095;
     </button>
 
@@ -279,11 +283,11 @@
     </div>
     <!-- Navigation Buttons -->
     <button onclick="moveSlider(-1,'slider_adventure')"
-      class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none">
+      class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none hidden md:block">
       &#10094;
     </button>
     <button onclick="moveSlider(1,'slider_adventure')"
-      class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none">
+      class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 focus:outline-none hidden md:block">
       &#10095;
     </button>
 
@@ -298,6 +302,20 @@
 
   <script>
 
+    function expand(){
+    
+      
+     let box=document.getElementById("search_box")
+    
+      //document.getElementById
+      //console.log(box);
+      if(box.style.display=="none"){
+        box.style.display="block"
+    }else{
+      box.style.display="none"
+    }
+
+    }
 
     function moveSlider(direction, div_id) {
       console.log(div_id);

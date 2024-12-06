@@ -5,6 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import requests
 import json
+import os
 
 # Check if URL is passed as an argument
 if len(sys.argv) < 2:
@@ -164,9 +165,9 @@ if response.status_code == 200:
             'Similar_Anime_List': similar_anime
         })
 
-
+        json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeDetail.json')
         # Overwrite the previous content of the file with new data
-        with open("9animeDetail.json", "w", encoding="utf-8") as json_file:
+        with open(json_file_path, "w", encoding="utf-8") as json_file:
             json.dump(anime_detail, json_file, ensure_ascii=False, indent=4)
 
         print("JSON file created/updated successfully.")

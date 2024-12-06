@@ -17,8 +17,8 @@ def home():
     # with open(os.path.join(os.getcwd(), '9animeHomepage.json'), 'r', encoding='utf-8') as f:
     #     homepage_data = json.load(f)
     json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeHomePage.json')
-    print(f"JSON file path: {json_file_path}")
-    print(f"Resolved JSON file path: {json_file_path}")
+    # print(f"JSON file path: {json_file_path}")
+    # print(f"Resolved JSON file path: {json_file_path}")
     # Load the JSON data
     with open(json_file_path, 'r', encoding='utf-8') as f:
         homepage_data = json.load(f)
@@ -54,9 +54,10 @@ def anime_detail():
 
     # Step 3: Run the 9animeDetail.py script with the URL as an argument
     # You should pass the URL as an argument to the script
+    json_file_path = os.path.join(os.path.dirname(__file__),'..', 'scrape', '9animeDetail.py')
     try:
         result = subprocess.run(
-            ['python', '9animeDetail.py', anime_url],
+            ['python', json_file_path, anime_url],
             capture_output=True, text=True, check=True
         )
         # Log any output from the script
@@ -66,12 +67,19 @@ def anime_detail():
         return "Error generating anime details", 500
 
     # Step 4: Read the generated JSON file (9animeDetail.json)
-    json_file_path = os.path.join(os.getcwd(), '9animeDetail.json')
+    # json_file_path = os.path.join(os.getcwd(), '9animeDetail.json')
     
-    if not os.path.exists(json_file_path):
-        app.logger.error(f"Generated JSON file not found: {json_file_path}")
-        return "Error: JSON file not found", 500
+    # if not os.path.exists(json_file_path):
+    #     app.logger.error(f"Generated JSON file not found: {json_file_path}")
+    #     return "Error: JSON file not found", 500
 
+    # with open(json_file_path, 'r', encoding='utf-8') as f:
+    #     anime_detail_data = json.load(f)
+
+    json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeDetail.json')
+    # print(f"JSON file path: {json_file_path}")
+    # print(f"Resolved JSON file path: {json_file_path}")
+    # Load the JSON data
     with open(json_file_path, 'r', encoding='utf-8') as f:
         anime_detail_data = json.load(f)
 
@@ -102,9 +110,10 @@ def anime_ep():
 
     # Step 3: Run the 9animeDetail.py script with the URL as an argument
     # You should pass the URL as an argument to the script
+    json_file_path = os.path.join(os.path.dirname(__file__),'..', 'scrape', '9animeEpisodePage.py')
     try:
         result = subprocess.run(
-            ['python', '9animeEpisodePage.py', anime_url],
+            ['python', json_file_path, anime_url],
             capture_output=True, text=True, check=True
         )
         # Log any output from the script
@@ -114,12 +123,18 @@ def anime_ep():
         return "Error generating anime details", 500
 
     # Step 4: Read the generated JSON file (9animeDetail.json)
-    json_file_path = os.path.join(os.getcwd(), '9animeEpisodePage.json')
+    # json_file_path = os.path.join(os.getcwd(), '9animeEpisodePage.json')
     
-    if not os.path.exists(json_file_path):
-        app.logger.error(f"Generated JSON file not found: {json_file_path}")
-        return "Error: JSON file not found", 500
+    # if not os.path.exists(json_file_path):
+    #     app.logger.error(f"Generated JSON file not found: {json_file_path}")
+    #     return "Error: JSON file not found", 500
 
+    # with open(json_file_path, 'r', encoding='utf-8') as f:
+    #     anime_episode_data = json.load(f)
+    json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeEpisodePage.json')
+    # print(f"JSON file path: {json_file_path}")
+    # print(f"Resolved JSON file path: {json_file_path}")
+    # Load the JSON data
     with open(json_file_path, 'r', encoding='utf-8') as f:
         anime_episode_data = json.load(f)
 
@@ -175,8 +190,9 @@ def trialCategory():
     
     # Step 2: Log the URL (optional for debugging)
     app.logger.debug(f"Anime URL from query parameter: {anime_cat}")
+    json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeHomePage.json')
     # Load the JSON data from the homepage.json file
-    with open(os.path.join(os.getcwd(), '9animeHomePage.json'), 'r', encoding='utf-8') as f:
+    with open(os.path.join(os.getcwd(), json_file_path), 'r', encoding='utf-8') as f:
         homepage_data = json.load(f)
     # Render the Jinja2 template (homepage.html) and pass the JSON data
     return render_template('9animeCategory.html', homepageData=homepage_data, anime_category=anime_cat)
