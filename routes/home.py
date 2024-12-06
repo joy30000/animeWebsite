@@ -147,10 +147,10 @@ def anime_ep():
 def search():
     name = request.form.get('name')
     modified_name = name.replace(" ", "+")
-
+    json_file_path = os.path.join(os.path.dirname(__file__),'..', 'scrape', 'search.py')
     try:
         result = subprocess.run(
-            ['python', 'search.py', modified_name],
+            ['python', json_file_path, modified_name],
             capture_output=True, text=True, check=True
         )
         # Log any output from the script
@@ -160,15 +160,18 @@ def search():
         return "Error generating anime details", 500
 
     # Step 4: Read the generated JSON file (9animeDetail.json)
-    json_file_path = os.path.join(os.getcwd(), '9animeEpisodePage.json')
+    # json_file_path = os.path.join(os.getcwd(), '9animeEpisodePage.json')
     
-    if not os.path.exists(json_file_path):
-        app.logger.error(f"Generated JSON file not found: {json_file_path}")
-        return "Error: JSON file not found", 500
+    # if not os.path.exists(json_file_path):
+    #     app.logger.error(f"Generated JSON file not found: {json_file_path}")
+    #     return "Error: JSON file not found", 500
     
     #return f"Name: {modified_name}"
+    json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeSearch.json')
+
+
      # Load the JSON data from the homepage.json file
-    with open(os.path.join(os.getcwd(), '9animeSearch.json'), 'r', encoding='utf-8') as f:
+    with open(os.path.join(os.getcwd(), json_file_path), 'r', encoding='utf-8') as f:
         search_data = json.load(f)
     # Render the Jinja2 template (homepage.html) and pass the JSON data
     return render_template('9animeSearchResult.html', searchData=search_data, search_query=name)
@@ -177,8 +180,9 @@ def search():
 
 @homeRoutes.route('/trial')
 def trialSearch():
+    json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeSearch.json')
     # Load the JSON data from the homepage.json file
-    with open(os.path.join(os.getcwd(), '9animeSearch.json'), 'r', encoding='utf-8') as f:
+    with open(os.path.join(os.getcwd(), json_file_path), 'r', encoding='utf-8') as f:
         search_data = json.load(f)
     # Render the Jinja2 template (homepage.html) and pass the JSON data
     return render_template('9animeSearchResult.html', searchData=search_data)

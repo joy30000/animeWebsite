@@ -97,6 +97,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import requests
 import json
+import os
 
 #Check if URL is passed as an argument
 if len(sys.argv) < 2:
@@ -154,6 +155,11 @@ for page_num in range(1, 6):  # Pages 1 to 5
                     'series': series
                 })
 
+            # Define the file path and create the 'data' directory if it doesn't exist
+            data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
+            if not os.path.exists(data_dir):
+              os.makedirs(data_dir)
+
             # Append the current page's data to the overall list
             all_search_anime.extend(search_anime)
             print(f"Scraped page {page_num}")
@@ -163,9 +169,9 @@ for page_num in range(1, 6):  # Pages 1 to 5
 
     else:
         print(f"Failed to fetch page {page_num}. Status code: {response.status_code}")
-
+json_file_path = os.path.join(data_dir, '9animeSearch.json')
 # Overwrite the previous content of the file with all data from pages 1 to 5
-with open("9animeSearch.json", "w", encoding="utf-8") as json_file:
+with open(json_file_path, "w", encoding="utf-8") as json_file:
     json.dump(all_search_anime, json_file, ensure_ascii=False, indent=4)
 
 print("JSON file created/updated successfully.")
