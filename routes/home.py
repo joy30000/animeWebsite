@@ -55,17 +55,28 @@ def anime_detail():
     # Step 3: Run the 9animeDetail.py script with the URL as an argument
     # You should pass the URL as an argument to the script
     json_file_path = os.path.join(os.path.dirname(__file__),'..', 'scrape', '9animeDetail.py')
+    # try:
+    #     result = subprocess.run(
+    #         ['python', json_file_path, anime_url],
+    #         capture_output=True, text=True, check=True
+    #     )
+    #     # Log any output from the script
+    #     app.logger.debug(f"Script output: {result.stdout}")
+    # except subprocess.CalledProcessError as e:
+    #     app.logger.error(f"Error running 9animeDetail.py: {e}")
+    #     return "Error generating anime details", 500
+
     try:
         result = subprocess.run(
-            ['python', json_file_path, anime_url],
-            capture_output=True, text=True, check=True
+        ['python', json_file_path, anime_url],
+        capture_output=True, text=True, check=True
         )
-        # Log any output from the script
+    # Log any output from the script
         app.logger.debug(f"Script output: {result.stdout}")
     except subprocess.CalledProcessError as e:
-        app.logger.error(f"Error running 9animeDetail.py: {e}")
-        return "Error generating anime details", 500
-
+     app.logger.error(f"Error running 9animeDetail.py: {e}")
+     app.logger.error(f"stderr: {e.stderr}")  # Log stderr for more details
+    return "Error generating anime details", 500
     # Step 4: Read the generated JSON file (9animeDetail.json)
     # json_file_path = os.path.join(os.getcwd(), '9animeDetail.json')
     
