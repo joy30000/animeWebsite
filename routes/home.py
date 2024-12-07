@@ -156,7 +156,7 @@ def search():
         # Log any output from the script
         app.logger.debug(f"Script output: {result.stdout}")
     except subprocess.CalledProcessError as e:
-        app.logger.error(f"Error running 9animeDetail.py: {e}")
+        app.logger.error(f"Error running search.py: {e}")
         return "Error generating anime details", 500
 
     # Step 4: Read the generated JSON file (9animeDetail.json)
