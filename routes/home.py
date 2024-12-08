@@ -27,17 +27,6 @@ def home():
     return render_template('9animeHomepage.html', homepageData=homepage_data)
 
 
-
-# @homeRoutes.route('/anime_detail')
-# def anime_detail():
-#     anime_url = request.args.get('url')
-    
-#     # Log the captured URL
-#     app.logger.debug(f"Anime URL from query parameter: {anime_url}")
-#     # Load the JSON data from the homepage.json file
-#     with open(os.path.join(os.getcwd(), '9animeDetail.json'), 'r', encoding='utf-8') as f:
-#         homepage_data = json.load(f)
-#     # Render the Jinja2 template (homepage.html) and pass the JSON data
 #     return render_template('9animeDetail.html', animeDetailData=homepage_data)
     
 
@@ -55,16 +44,7 @@ def anime_detail():
     # Step 3: Run the 9animeDetail.py script with the URL as an argument
     # You should pass the URL as an argument to the script
     json_file_path = os.path.join(os.path.dirname(__file__),'..', 'scrape', '9animeDetail.py')
-    # try:
-    #     result = subprocess.run(
-    #         ['python', json_file_path, anime_url],
-    #         capture_output=True, text=True, check=True
-    #     )
-    #     # Log any output from the script
-    #     app.logger.debug(f"Script output: {result.stdout}")
-    # except subprocess.CalledProcessError as e:
-    #     app.logger.error(f"Error running 9animeDetail.py: {e}")
-    #     return "Error generating anime details", 500
+  
 
     try:
         result = subprocess.run(
@@ -76,20 +56,11 @@ def anime_detail():
     except subprocess.CalledProcessError as e:
      app.logger.error(f"Error running 9animeDetail.py: {e}")
      app.logger.error(f"stderr: {e.stderr}")  # Log stderr for more details
-    return "Error generating anime details", 500
-    # Step 4: Read the generated JSON file (9animeDetail.json)
-    # json_file_path = os.path.join(os.getcwd(), '9animeDetail.json')
-    
-    # if not os.path.exists(json_file_path):
-    #     app.logger.error(f"Generated JSON file not found: {json_file_path}")
-    #     return "Error: JSON file not found", 500
-
-    # with open(json_file_path, 'r', encoding='utf-8') as f:
-    #     anime_detail_data = json.load(f)
+     return "Error generating anime details", 500
+   
 
     json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeDetail.json')
-    # print(f"JSON file path: {json_file_path}")
-    # print(f"Resolved JSON file path: {json_file_path}")
+  
     # Load the JSON data
     with open(json_file_path, 'r', encoding='utf-8') as f:
         anime_detail_data = json.load(f)
@@ -99,13 +70,7 @@ def anime_detail():
 
 
 
-# @homeRoutes.route('/animeEp')
-# def animeEp():
-#     # Load the JSON data from the homepage.json file
-#     with open(os.path.join(os.getcwd(), '9animeEpisodePage.json'), 'r', encoding='utf-8') as f:
-#         animeEpData = json.load(f)
-#     # Render the Jinja2 template (homepage.html) and pass the JSON data
-#     return render_template('trialPageEp.html', animeDetailData=animeEpData)
+
 
 
 @homeRoutes.route('/anime_episode')
@@ -133,18 +98,8 @@ def anime_ep():
         app.logger.error(f"Error running 9animeDetail.py: {e}")
         return "Error generating anime details", 500
 
-    # Step 4: Read the generated JSON file (9animeDetail.json)
-    # json_file_path = os.path.join(os.getcwd(), '9animeEpisodePage.json')
-    
-    # if not os.path.exists(json_file_path):
-    #     app.logger.error(f"Generated JSON file not found: {json_file_path}")
-    #     return "Error: JSON file not found", 500
-
-    # with open(json_file_path, 'r', encoding='utf-8') as f:
-    #     anime_episode_data = json.load(f)
     json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeEpisodePage.json')
-    # print(f"JSON file path: {json_file_path}")
-    # print(f"Resolved JSON file path: {json_file_path}")
+
     # Load the JSON data
     with open(json_file_path, 'r', encoding='utf-8') as f:
         anime_episode_data = json.load(f)
@@ -170,14 +125,7 @@ def search():
         app.logger.error(f"Error running search.py: {e}")
         return "Error generating anime details", 500
 
-    # Step 4: Read the generated JSON file (9animeDetail.json)
-    # json_file_path = os.path.join(os.getcwd(), '9animeEpisodePage.json')
-    
-    # if not os.path.exists(json_file_path):
-    #     app.logger.error(f"Generated JSON file not found: {json_file_path}")
-    #     return "Error: JSON file not found", 500
-    
-    #return f"Name: {modified_name}"
+  
     json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeSearch.json')
 
 

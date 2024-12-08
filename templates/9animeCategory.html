@@ -55,16 +55,17 @@
       </nav>
      <!-- --------------------------SEARCH RESUTS----------------------------------------------------- -->
   <!-- Card Slider Wrapper LATEST UPDATED ANIME -->
-  <section class="popular relative w-full overflow-x-hidden mt-4 flex flex-col items-center justify-center">
+  <section class="popular relative w-full overflow-x-hidden mt-4 flex flex-col items-center justify-center mb-9">
 
     <!-- <h1 class="font-semibold text-white text-2xl ml-6">Search Results: {{ search_query}}</h1> -->
   
     <!-- Cards Container (Scrollable) -->
-    <div id="slider_popular" class="grid grid-cols-3 gap-4 overflow-x-auto p-4  sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6" style="scroll-behavior: smooth">
+    <div id="slider_popular" class="h-[fit-content] grid grid-cols-3 gap-4 overflow-x-auto p-4  sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6" style="scroll-behavior: smooth">
       <!-- Card  -->
       
       {% for anime in homepageData[0][anime_category] %}
-      <a class=" bg-[#2f2f2f] h-[fit-content] w-[fit-content] rounded-lg block transition-transform duration-300 ease-in-out transform hover:scale-[1.2] "
+      <a class=" bg-[#2f2f2f] h-[fit-content] w-[fit-content] rounded-lg block transition-transform duration-300 ease-in-out transform hover:scale-[1.2] hover:z-10 "
+        
         href="/home/anime_detail?url={{ anime.link | urlencode }}">
         <div class="flex-none w-[20vh] h-[28vh] bg-blue-500 text-white rounded-lg p-4 shadow-lg bg-cover"
           style="background-image: url('{{ anime.img }}')" ;>

@@ -466,8 +466,8 @@ try:
     })
 
     # Define the file path and create the 'data' directory if it doesn't exist
-    data_dir = '/opt/render/project/src/data'  # Absolute path for Render's environment
-    # data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
+    # data_dir = '/opt/render/project/src/data'  # Absolute path for Render's environment
+    data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
 
