@@ -301,12 +301,12 @@ if response.status_code == 200:
     # Append the main anime data to the anime_detail list
       anime_detail.append({
         'title': title,
-        # 'status': detail,
+        'status': detail,
         'img': img_url,
         'cover_img': cover_img_url,
-        # 'genres': genre,
-        # 'description': description,
-        # 'episodes': ul_html,
+        'genres': genre,
+        'description': description,
+        'episodes': ul_html,
         'Similar_Anime_List': similar_anime
     })
 
