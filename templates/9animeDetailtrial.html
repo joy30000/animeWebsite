@@ -1,0 +1,97 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anime Details</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                width: 80%;
+                margin: 0 auto;
+            }
+            h1 {
+                text-align: center;
+                margin-top: 20px;
+            }
+            .anime-detail {
+                display: flex;
+                margin-top: 20px;
+            }
+            .anime-detail img {
+                max-width: 300px;
+                margin-right: 20px;
+            }
+            .anime-detail .content {
+                max-width: 700px;
+            }
+            .similar-anime {
+                margin-top: 40px;
+            }
+            .similar-anime .anime-card {
+                display: inline-block;
+                width: 200px;
+                margin: 10px;
+                text-align: center;
+            }
+            .similar-anime .anime-card img {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Anime Detail</h1>
+            <div class="anime-detail" id="anime-detail">
+                <!-- Anime details will be inserted here -->
+            </div>
+
+            <div class="similar-anime" id="similar-anime">
+                <!-- Similar anime will be inserted here -->
+            </div>
+        </div>
+
+        <script>
+            // Fetch the JSON data from the file and display it
+            fetch('9animeDetail.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Display the main anime details
+                    const animeDetail = data[0]; // Assuming we have a single anime entry in the array
+                    const animeDetailElement = document.getElementById('anime-detail');
+                    animeDetailElement.innerHTML = `
+                        <h1>chutiya<h1>
+                        <img src="${animeDetail.img}" alt="${animeDetail.title}">
+                        <div class="content">
+                            <h2>${animeDetail.title}</h2>
+                            <p><strong>Status:</strong> ${animeDetail.status}</p>
+                            <p><strong>Genres:</strong> ${animeDetail.genres}</p>
+                            <p><strong>Description:</strong> ${animeDetail.description}</p>
+                            <p><strong>Episodes:</strong> ${animeDetail.episodes}</p>
+                        </div>
+                    `;
+
+                    // Display similar anime
+                    const similarAnimeElement = document.getElementById('similar-anime');
+                    animeDetail.Similar_Anime_List.forEach(similarAnime => {
+                        similarAnimeElement.innerHTML += `
+                            <div class="anime-card">
+                                <img src="${similarAnime.img}" alt="${similarAnime.title}">
+                                <p>${similarAnime.title}</p>
+                                <p>${similarAnime.series}</p>
+                                <p>${similarAnime.language}</p>
+                            </div>
+                        `;
+                    });
+                })
+                .catch(error => console.error('Error loading JSON data:', error));
+        </script>
+    </body>
+    </html>
+    
