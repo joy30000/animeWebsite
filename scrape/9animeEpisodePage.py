@@ -16,9 +16,9 @@ if len(sys.argv) < 2:
 url = sys.argv[1]
 
 # Set up the WebDriver
-options = webdriver.ChromeOptions()
-options.add_argument("--headless")  # run in headless mode (no UI)
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+# options = webdriver.ChromeOptions()
+# options.add_argument("--headless")  # run in headless mode (no UI)
+# driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 
 
@@ -27,16 +27,16 @@ response = requests.get(url)
 
 # Check if the request was successful (status code 200)
 if response.status_code == 200:
-    html_doc = response.text  # Get the HTML content from the response
+        html_doc = response.text  # Get the HTML content from the response
 
     # Parse the HTML content with BeautifulSoup
-    soup = BeautifulSoup(html_doc, 'html.parser')
+        soup = BeautifulSoup(html_doc, 'html.parser')
 
     # Initialize a list to store the scraped data as dictionaries
-    anime_detail = []
-    similar_anime = []
+        anime_detail = []
+        similar_anime = []
 
-    try:
+   
         # Extract all matching elements
         # titles = soup.find_all(class_="entry-title")
         # title = titles[0].get_text().strip().replace("\n", "") if titles else ""
@@ -170,16 +170,19 @@ if response.status_code == 200:
             # 'episodes': episode
             # 'Similar_Anime_List': similar_anime
         })
-
-        json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeEpisodePage.json')
-        # Save the data as JSON with proper formatting
-        with open(json_file_path, "w", encoding="utf-8") as json_file:
-            json.dump(anime_detail, json_file, ensure_ascii=False, indent=4)
-
-        print("JSON file created successfully.")
-
-    except Exception as e:
-        print(f"Error processing data: {e}")
-
 else:
-    print(f"Failed to fetch the webpage. Status code: {response.status_code}")
+        print(f"Failed to fetch page . Status code: {response.status_code}")
+         # Stop scraping if page fetch fails
+data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
+if not os.path.exists(data_dir):
+   os.makedirs(data_dir)
+
+json_file_path = os.path.join(data_dir, '9animeEpisodePage.json')
+        
+        # Save the data as JSON with proper formatting
+with open(json_file_path, "w", encoding="utf-8") as json_file:
+     json.dump(anime_detail, json_file, ensure_ascii=False, indent=4)
+
+print("JSON file created successfully.")
+
+    
