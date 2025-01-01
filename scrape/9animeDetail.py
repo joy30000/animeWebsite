@@ -255,9 +255,34 @@ if response.status_code == 200:
       descriptions = soup.find_all(class_="entry-content")
       description = str(descriptions).replace('[', '').replace(']', '')
 
-      episodes = soup.find('div', class_='eplister')
-      ul_tag = episodes.find('ul') if episodes else None
-      ul_html = str(ul_tag).replace('https:', '/home/anime_episode?url=https:') if ul_tag else "No episodes found"
+      # episodes = soup.find('div', class_='eplister')
+      # ul_tag = episodes.find('ul') if episodes else None
+      # ul_html = str(ul_tag).replace('https:', '/anime_episode?url=https:').replace('<a','<Link').replace('a>','Link>') if ul_tag else "No episodes found"
+      eplister = soup.find('div', class_='eplister')
+
+# Find all <li> tags within the 'eplister' div (episodes list)
+      episodes = eplister.find_all('li')
+    #   episodes = soup.find_all('li')
+
+# Loop through each episode and extract the data
+      episode_data = []
+
+      for episode in episodes:
+    # Extract the relevant information for each episode
+       episode_num = episode.find('div', class_='epl-num').text.strip()
+       episode_title = episode.find('div', class_='epl-title').text.strip()
+       episode_sub = episode.find('span', class_='status Sub').text.strip() if episode.find('span', class_='status Sub') else 'N/A'
+       episode_date = episode.find('div', class_='epl-date').text.strip()
+       episode_url = episode.find('a')['href']
+
+    # Store the data as a dictionary
+       episode_data.append({
+        'episode_number': episode_num,
+        'title': episode_title,
+        'sub_status': episode_sub,
+        'release_date': episode_date,
+        'url': episode_url
+    })
 
     # ---------------------------------------- SIMILAR ANIME --------------------------------------------
 
@@ -306,7 +331,7 @@ if response.status_code == 200:
         'cover_img': cover_img_url,
         'genres': genre,
         'description': description,
-        'episodes': ul_html,
+        'episodes': episode_data,
         'Similar_Anime_List': similar_anime
     })
 
