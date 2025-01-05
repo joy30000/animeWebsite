@@ -137,10 +137,60 @@ def anime_detail():
     # Load the JSON data
     with open(json_file_path, 'r', encoding='utf-8') as f:
         anime_detail_data = json.load(f)
+        
 
     # Step 5: Pass the JSON data to the template
     #return render_template('9animeDetail.html', animeDetailData=anime_detail_data)
     return jsonify(anime_detail_data) 
+
+
+
+
+@homeRoutes.route('/anime_shounene',methods=['GET'])
+@cross_origin()  # Enable CORS only for this route
+
+def anime_shounene():
+    # Step 1: Get the URL from query string
+    anime_url = request.args.get('url')
+    # anime_url = request.headers.get('url')
+    # data = request.get_json()  # Get the JSON data from the request body
+    # anime_url= data.get('category')
+    
+    # Step 2: Log the URL (optional for debugging)
+    app.logger.debug(f"Anime URL from query parameter: {anime_url}")
+    
+    if not anime_url:
+        return "No URL provided", 400
+
+    # Step 3: Run the 9animeDetail.py script with the URL as an argument
+    # You should pass the URL as an argument to the script
+    json_file_path = os.path.join(os.path.dirname(__file__),'..', 'scrape', '9animeShounene.py')
+  
+
+    try:
+        result = subprocess.run(
+        ['python', json_file_path, anime_url],
+        capture_output=True, text=True, check=True
+        )
+    # Log any output from the script
+        app.logger.debug(f"Script output: {result.stdout}")
+    except subprocess.CalledProcessError as e:
+     app.logger.error(f"Error running 9animeShounene.py: {e}")
+     app.logger.error(f"stderr: {e.stderr}")  # Log stderr for more details
+     return "Error generating anime details", 500
+   
+
+    json_file_path = os.path.join(os.path.dirname(__file__),'..', 'data', '9animeShounene.json')
+  
+    # Load the JSON data
+    with open(json_file_path, 'r', encoding='utf-8') as f:
+        anime_shounene_data = json.load(f)
+        
+
+    # Step 5: Pass the JSON data to the template
+    #return render_template('9animeDetail.html', animeDetailData=anime_detail_data)
+    return jsonify(anime_shounene_data) 
+
 
 
 

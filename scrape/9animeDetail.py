@@ -249,8 +249,23 @@ if response.status_code == 200:
       div_tag = soup.find('div', class_='ime')
       cover_img_url = div_tag.find('img').get('src') if div_tag else 'https://png.pngtree.com/thumb_back/fh260/background/20220114/pngtree-no-image-available-available-wooden-blackboard-photo-image_4846882.jpg'
 
-      genres = soup.find_all(class_="genxed")
-      genre = str(genres[0]) if genres else ""
+      # genres = soup.find_all(class_="genxed")
+      # genre = str(genres[0]) if genres else ""
+      genres_data = []
+       # genres = soup.find_all(class_="genxed")
+      genres = soup.find('div', class_='genxed')
+       #genre= str(genres[0]) if genres else "" 
+        # Find all <a> tags and extract the text and href
+      links = genres.find_all('a')
+      for link in links:
+         text = link.get_text()  # Extract text
+         href = link.get('href')  # Extract href attribute
+
+         genres_data.append({
+        'text': text,
+        'link': href
+        
+        })
 
       descriptions = soup.find_all(class_="entry-content")
       description = str(descriptions).replace('[', '').replace(']', '')
@@ -329,7 +344,7 @@ if response.status_code == 200:
         'status': detail,
         'img': img_url,
         'cover_img': cover_img_url,
-        'genres': genre,
+        'genres': genres_data,
         'description': description,
         'episodes': episode_data,
         'Similar_Anime_List': similar_anime

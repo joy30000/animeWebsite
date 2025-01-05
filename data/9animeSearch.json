@@ -1,110 +1,182 @@
 [
     {
-        "title": "Naruto Spin-Off: Rock Lee & His Ninja Pals",
-        "episode_title": "Naruto Spin-Off: Rock Lee & His Ninja Pals",
-        "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1732168149-3469-36475.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/naruto-spin-off-rock-lee-his-ninja-pals/",
+        "title": "Dragon Ball Z: Plan to Eradicate the Saiyans",
+        "episode_title": "Dragon Ball Z: Plan to Eradicate the Saiyans",
+        "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1731609776-4380-116787.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/dragon-ball-z-plan-to-eradicate-the-saiyans/",
         "episode_number": "Completed",
         "language": "Sub",
-        "series": "TV"
+        "series": "OVA"
     },
     {
-        "title": "Boruto: Naruto Next Generations (Dub)",
-        "episode_title": "Boruto: Naruto Next Generations (Dub)",
-        "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/11/1732161006-7266-99847.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/boruto-naruto-next-generations-dub/",
+        "title": "Dragon Nest: Throne of Elves",
+        "episode_title": "Dragon Nest: Throne of Elves",
+        "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729651693-7959-112381.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/dragon-nest-throne-of-elves/",
         "episode_number": "Completed",
         "language": "Dub",
+        "series": "Movie"
+    },
+    {
+        "title": "Dragon Nest: Warriors’ Dawn",
+        "episode_title": "Dragon Nest: Warriors’ Dawn",
+        "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1729651578-5001-112373.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/dragon-nest-warriors-dawn/",
+        "episode_number": "Completed",
+        "language": "Dub",
+        "series": "Movie"
+    },
+    {
+        "title": "Dragon Ball Daima",
+        "episode_title": "Dragon Ball Daima",
+        "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728667385-6508-145231.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/dragon-ball-daima/",
+        "episode_number": "Ongoing",
+        "language": "Sub",
         "series": "TV"
     },
     {
-        "title": "Boruto: Naruto the Movie – The Day Naruto Became Hokage",
-        "episode_title": "Boruto: Naruto the Movie – The Day Naruto Became Hokage",
-        "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728889968-6943-77678.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/boruto-naruto-the-movie-the-day-naruto-became-hokage/",
+        "title": "The Do-Over Damsel Conquers The Dragon Emperor",
+        "episode_title": "The Do-Over Damsel Conquers The Dragon Emperor",
+        "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/yarinaoshi-reijou-wa-ryuutei-heika-wo-kouryakuchuu-1727380197.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/the-do-over-damsel-conquers-the-dragon-emperor/",
         "episode_number": "Completed",
         "language": "Sub",
+        "series": "TV"
+    },
+    {
+        "title": "Dragon Ball: Yo! The Return of Son-Goku and Friends!! (Dub)",
+        "episode_title": "Dragon Ball: Yo! The Return of Son-Goku and Friends!! (Dub)",
+        "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728450051-2793-10149.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/dragon-ball-yo-the-return-of-son-goku-and-friends-dub/",
+        "episode_number": "Completed",
+        "language": "Dub",
         "series": "Special"
     },
     {
-        "title": "Naruto Shippuden the Movie 3: The Will of Fire",
-        "episode_title": "Naruto Shippuden the Movie 3: The Will of Fire",
-        "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728889791-7532-116732.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/naruto-shippuden-the-movie-3-the-will-of-fire/",
-        "episode_number": "Completed",
-        "language": "Sub",
-        "series": "Movie"
-    },
-    {
-        "title": "Naruto Shippuden the Movie 1",
-        "episode_title": "Naruto Shippuden the Movie 1",
-        "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728811686-8581-134493.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/naruto-shippuden-the-movie-1/",
-        "episode_number": "Completed",
+        "title": "A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized 2nd Season (Japanese Dub)",
+        "episode_title": "A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized 2nd Season (Japanese Dub)",
+        "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728444576-8042-145413.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/a-herbivorous-dragon-of-5000-years-gets-unfairly-villainized-2nd-season-japanese-dub/",
+        "episode_number": "Ongoing",
         "language": "Dub",
-        "series": "Movie"
+        "series": "ONA"
     },
     {
-        "title": "Boruto: Naruto Next Generations",
-        "episode_title": "Boruto: Naruto Next Generations",
-        "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725302212-7829-99847.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/boruto-naruto-next-generations/",
+        "title": "Good Bye, Dragon Life",
+        "episode_title": "Good Bye, Dragon Life",
+        "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/10/6431fdac6396ff285bf3c69b807a8a9a.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/good-bye-dragon-life/",
         "episode_number": "Completed",
         "language": "Sub",
         "series": "TV"
     },
     {
-        "title": "Naruto Shippuden the Movie 7: The Last",
-        "episode_title": "Naruto Shippuden the Movie 7: The Last",
-        "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725275734-4859-134498.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/naruto-shippuden-the-movie-7-the-last/",
+        "title": "A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized 2nd Season",
+        "episode_title": "A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized 2nd Season",
+        "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1727838426-9190-145413.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/a-herbivorous-dragon-of-5000-years-gets-unfairly-villainized-2nd-season/",
+        "episode_number": "Completed",
+        "language": "Sub",
+        "series": "ONA"
+    },
+    {
+        "title": "Dragon Ball Super: Broly",
+        "episode_title": "Dragon Ball Super: Broly",
+        "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1727706713-8840-93498.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/dragon-ball-super-broly/",
         "episode_number": "Completed",
         "language": "Dub",
         "series": "Movie"
     },
     {
-        "title": "Naruto Shippuden",
-        "episode_title": "Naruto Shippuden",
-        "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725272156-8049-111305.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/naruto-shippuden/",
-        "episode_number": "Completed",
-        "language": "Sub",
-        "series": "TV"
-    },
-    {
-        "title": "Naruto: Shippuuden (Dub)",
-        "episode_title": "Naruto: Shippuuden (Dub)",
-        "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725272137-5779-111305.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/naruto-shippuuden-dub/",
-        "episode_number": "Completed",
-        "language": "Dub",
-        "series": "TV"
-    },
-    {
-        "title": "Naruto (Dub)",
-        "episode_title": "Naruto (Dub)",
-        "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725270972-6707-142503.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/naruto-dub/",
-        "episode_number": "Completed",
-        "language": "Dub",
-        "series": "TV"
-    },
-    {
-        "title": "Boruto: Naruto the Movie",
-        "episode_title": "Boruto: Naruto the Movie",
-        "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1725209055-9483-78280.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/boruto-naruto-the-movie/",
+        "title": "Dragon Quest: Your Story",
+        "episode_title": "Dragon Quest: Your Story",
+        "img": "https://i0.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1727601522-2126-101614.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/dragon-quest-your-story/",
         "episode_number": "Completed",
         "language": "Dub",
         "series": "Movie"
     },
     {
-        "title": "Naruto",
-        "episode_title": "Naruto",
-        "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/08/Naruto.jpg?resize=247,350",
-        "link": "https://9anime.org.lv/anime/naruto/",
+        "title": "Dragon Ball Z",
+        "episode_title": "Dragon Ball Z",
+        "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/09/1727403549-4098-142022.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/dragon-ball-z/",
         "episode_number": "Completed",
         "language": "Sub",
         "series": "TV"
+    },
+    {
+        "title": "Urban Hidden Dragon",
+        "episode_title": "Urban Hidden Dragon",
+        "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/08/1724772300-8543-urban-hidden-dragon.png?resize=247,350",
+        "link": "https://9anime.org.lv/anime/urban-hidden-dragon/",
+        "episode_number": "Ongoing",
+        "language": "Sub",
+        "series": "TV"
+    },
+    {
+        "title": "City Immortal Emperor: Dragon King Temple",
+        "episode_title": "City Immortal Emperor: Dragon King Temple",
+        "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/08/1724671191-8811-city-immortal-emperor-dragon-king-temple.png?resize=247,350",
+        "link": "https://9anime.org.lv/anime/city-immortal-emperor-dragon-king-temple/",
+        "episode_number": "Ongoing",
+        "language": "Sub",
+        "series": "TV"
+    },
+    {
+        "title": "Dragon Prince Yuan",
+        "episode_title": "Dragon Prince Yuan",
+        "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/08/1724420960-2896-118772.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/dragon-prince-yuan/",
+        "episode_number": "Ongoing",
+        "language": "Sub",
+        "series": "ONA"
+    },
+    {
+        "title": "Dragon King’s Son-In-Law",
+        "episode_title": "Dragon King’s Son-In-Law",
+        "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/08/1724325335-3300-dragon-kings-son-in-law.png?resize=247,350",
+        "link": "https://9anime.org.lv/anime/dragon-kings-son-in-law/",
+        "episode_number": "Ongoing",
+        "language": "Sub",
+        "series": "TV"
+    },
+    {
+        "title": "I Have a Dragon in My Body",
+        "episode_title": "I Have a Dragon in My Body",
+        "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/08/1724303868-6637-i-have-a-dragon-in-my-body.png?resize=247,350",
+        "link": "https://9anime.org.lv/anime/i-have-a-dragon-in-my-body/",
+        "episode_number": "Ongoing",
+        "language": "Sub",
+        "series": "TV"
+    },
+    {
+        "title": "My WeChat Connects to the Dragon Palace",
+        "episode_title": "My WeChat Connects to the Dragon Palace",
+        "img": "https://i2.wp.com/9anime.org.lv/wp-content/uploads/2024/08/1724253269-4385-144804.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/my-wechat-connects-to-the-dragon-palace/",
+        "episode_number": "Ongoing",
+        "language": "Sub",
+        "series": "ONA"
+    },
+    {
+        "title": "Toradora!",
+        "episode_title": "Toradora!",
+        "img": "https://i3.wp.com/9anime.org.lv/wp-content/uploads/2024/10/1728657633-9820-22128.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/toradora/",
+        "episode_number": "Completed",
+        "language": "Sub",
+        "series": "TV"
+    },
+    {
+        "title": "Purgatory Walkers",
+        "episode_title": "Purgatory Walkers",
+        "img": "https://i1.wp.com/9anime.org.lv/wp-content/uploads/2024/08/1724062220-4294-143507.jpg?resize=247,350",
+        "link": "https://9anime.org.lv/anime/purgatory-walkers/",
+        "episode_number": "Ongoing",
+        "language": "Sub",
+        "series": "ONA"
     }
 ]
